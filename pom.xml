@@ -27,6 +27,47 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
+        <awaitility.version>3.1.6</awaitility.version>
     </properties>
+    <!-- <dependencyManagement> - allow to set up dependencies with specific version which is allowed to inherited down the stream-->
+    <dependencyManagement>
 
+        <dependencies>
+            <!-- Needed only (!) if java > v.8 -->
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+
+            <!-- Needed only (!) if java > v.8 -->
+            <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+
+            <!-- Needed only (!) if java > v.8 -->
+            <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core -->
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>${jaxb.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${org.mapstruct.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.awaitility</groupId>
+                <artifactId>awaitility</artifactId>
+                <version>${awaitility.version}</version>
+                <scope>test</scope> <!-- only on test mvn phase -->
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
