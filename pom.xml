@@ -33,23 +33,23 @@
     <dependencyManagement>
 
         <dependencies>
-             Needed only (!) if java > v.8
+             <!--Needed only (!) if java > v.8-->
             <dependency>
                 <groupId>javax.xml.bind</groupId>
                 <artifactId>jaxb-api</artifactId>
                 <version>${jaxb.version}</version>
             </dependency>
 
-             Needed only (!) if java > v.8
-             https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl
+             <!--Needed only (!) if java > v.8-->
+             <!--https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl-->
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-impl</artifactId>
                 <version>${jaxb.version}</version>
             </dependency>
 
-             Needed only (!) if java > v.8
-             https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core
+             <!--Needed only (!) if java > v.8-->
+             <!--https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core-->
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-core</artifactId>
