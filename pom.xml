@@ -34,27 +34,27 @@
 
         <dependencies>
             <!-- Needed only (!) if java > v.8 -->
-            <dependency>
-                <groupId>javax.xml.bind</groupId>
-                <artifactId>jaxb-api</artifactId>
-                <version>${jaxb.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>javax.xml.bind</groupId>-->
+                <!--<artifactId>jaxb-api</artifactId>-->
+                <!--<version>${jaxb.version}</version>-->
+            <!--</dependency>-->
 
             <!-- Needed only (!) if java > v.8 -->
             <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-impl -->
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-impl</artifactId>
-                <version>${jaxb.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.sun.xml.bind</groupId>-->
+                <!--<artifactId>jaxb-impl</artifactId>-->
+                <!--<version>${jaxb.version}</version>-->
+            <!--</dependency>-->
 
             <!-- Needed only (!) if java > v.8 -->
             <!-- https://mvnrepository.com/artifact/com.sun.xml.bind/jaxb-core -->
-            <dependency>
-                <groupId>com.sun.xml.bind</groupId>
-                <artifactId>jaxb-core</artifactId>
-                <version>${jaxb.version}</version>
-            </dependency>
+            <!--<dependency>-->
+                <!--<groupId>com.sun.xml.bind</groupId>-->
+                <!--<artifactId>jaxb-core</artifactId>-->
+                <!--<version>${jaxb.version}</version>-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>org.mapstruct</groupId>
