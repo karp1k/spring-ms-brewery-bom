@@ -10,3 +10,7 @@ related repo's:
 - [beer-order-service](https://github.com/karp1k/spring-ms-beer-order-service)
 
 - [beer-inventory-service](https://github.com/karp1k/spring-ms-beer-inventory-service)
+
+- [brewery-gateway](https://github.com/karp1k/spring-ms-brewery-gateway)
+
+- [brewery-eureka](https://github.com/karp1k/spring-ms-brewery-eureka)
