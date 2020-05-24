@@ -19,3 +19,5 @@ related repo's:
 - [brewery-eureka](https://github.com/karp1k/spring-ms-brewery-eureka)
 
 - [beer-inventory-failover-service](https://github.com/karp1k/spring-ms-beer-inventory-failover-service)
+
+- [brewery-config-server](https://github.com/karp1k/spring-ms-brewery-config-server)
