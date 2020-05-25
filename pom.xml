@@ -31,6 +31,7 @@
         <awaitility.version>3.1.6</awaitility.version>
         <statemachine.version>2.2.0.RELEASE</statemachine.version>
         <spring-cloud.version>2.2.2.RELEASE</spring-cloud.version>
+        <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
     </properties>
     <!-- <dependencyManagement> - allow to set up dependencies with specific version which is allowed to inherited down the stream-->
     <dependencyManagement>
@@ -131,6 +132,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
             <version>${spring-cloud.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>${logstash-logback-encoder.version}</version>
         </dependency>
 
         <dependency>
