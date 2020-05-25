@@ -12,7 +12,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>spring-ms-brewery-bom</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <packaging>pom</packaging>
     <developers>
@@ -22,7 +22,7 @@
     </developers>
 
     <properties>
-        <spring-ms-beer-common.version>1.0-SNAPSHOT</spring-ms-beer-common.version>
+        <spring-ms-beer-common.version>1.0.0</spring-ms-beer-common.version>
         <java.version>1.8</java.version>
         <jaxb.version>2.3.0</jaxb.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
